@@ -5,3 +5,4 @@
     name: "clickhouse-server"
     state: restarted
   become: "{{ clickhouse_become }}"
+  when: clickhouse_restart
