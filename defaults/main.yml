@@ -9,6 +9,8 @@ clickhouse_setup: package
 clickhouse_remove: no
 #Flag for full remove(incl db and config), use clickhouse_remove + clickhouse_remove_full
 clickhouse_remove_full: no
+#Flag for running restart handler
+clickhouse_restart: true
 
 clickhouse_profiles_default:
  default:
